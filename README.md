@@ -3,10 +3,6 @@ Can ChatGPT Replace Traditional KBQA Models? An In-depth Analysis of the Questio
 
 A framework for detailed evaluation of the ability of ChatGPT and similar large-scale language models to answer complex questions.
 
-If you use the code, please cite the following paper:   
-
-**Evaluation of ChatGPT as a Question Answering System for Answering Complex Questions**  [[Arxiv]](https://arxiv.org/abs/2303.07992)
-
 ---
 :fire::tada: We have released the answers of chatgpt and other models to a total of 194,782 questions across 8 datasets, including multiple languages in [Datasets we publish](#Datasets-we-publish).
 
