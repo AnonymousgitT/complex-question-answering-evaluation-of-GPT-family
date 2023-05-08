@@ -10,7 +10,7 @@ We have released the answers of chatgpt and other models to a total of 194,782 q
 
 
 #  Overview
-![505_02](https://user-images.githubusercontent.com/97523884/236836420-ca35e9d1-9bde-4680-970f-24fe9238117b.jpg)
+![Framework_simple](https://user-images.githubusercontent.com/97523884/236836915-3e7042fb-b445-42be-b907-da0afe4b338b.png)
 
 To evaluate the ability of large language models such as ChatGPT to answer KB-based complex question answering (KB-based CQA), we proposed an evaluation framework:
 
