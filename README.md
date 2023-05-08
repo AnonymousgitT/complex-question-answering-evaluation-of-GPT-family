@@ -1,23 +1,22 @@
-# Complex-Question-Answering-Evaluation-of-ChatGPT
+# Complex-question-answering-evaluation-of-GPT-family
+
 Can ChatGPT Replace Traditional KBQA Models? An In-depth Analysis of the Question Answering Performance of the GPT LLM Family
 
-A framework for detailed evaluation of the ability of ChatGPT and similar large-scale language models to answer complex questions.
+A framework for detailed evaluation of the ability of ChatGPT and similar large language models to answer complex questions.
 
----
-:fire::tada: We have released the answers of chatgpt and other models to a total of 194,782 questions across 8 datasets, including multiple languages in [Datasets we publish](#Datasets-we-publish).
-
-To our knowledge(2023-3-9), this is the first public release of a large-scale Q&A dataset for chatgpt.
-
-😊 Updated on April 12, 2023: We have uploaded the Q&A dataset for GPT-4.
+We have released the answers of chatgpt and other models to a total of 194,782 questions across 8 datasets, including multiple languages in [Datasets we publish](#Datasets-we-publish).
 
 
 #  Overview
+To evaluate the ability of large language models such as ChatGPT to answer complex questions, we proposed an evaluation framework:
 
-To evaluate ChatGPT's ability to answer complex knowledge, we propose an evaluation framework:
-First, we classify the latent features that constitute complex questions, and describe each question under test with multi-labels for identifying combinatorial reasoning.
-Secondly, following the black-box test specification of [CheckList](https://arxiv.org/abs/2005.04118) proposed by Microsoft, we design an evaluation method that introduces [CoT](https://arxiv.org/abs/2201.11903) hints to measure the reasoning function and reliability of large language models in answering complex questions.
-Our evaluation uses 8 real complex question answering datasets, including six English datasets and two multilingual datasets, to further analyze the potential impact of language bias.
-We compared the evaluation results of ChatGPT, GPT3.5, GPT3, FLAN-T5 and GPT-4 to identify persistent historical issues in LLMs. All data and results are available for further analysis.  
+First, we designed multiple labels to describe the answer type, reasoning operations required to answer the question, and language type of each test question.
+
+Second, based on the black-box testing specifications proposed by Microsoft's [CheckList](https://arxiv.org/abs/2005.04118), we designed an evaluation method that introduces [CoT](https://arxiv.org/abs/2201.11903) prompts to measure the reasoning capability and reliability of large language models when answering complex questions.
+
+Our evaluation used eight real and complex QA datasets, including six English datasets and two multilingual datasets, to further analyze the potential impact of language type on the performance of large language models.
+
+We compared the evaluation results of FLAN-T5, ChatGPT, GPT3, GPT3.5 series, and GPT-4 to determine the iterative benefits of different models within the GPT family and some commonalities between GPT family models and other LLMs.
 
 # Datasets we publish
 
