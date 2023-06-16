@@ -27,7 +27,7 @@ We compared the evaluation results of FLAN-T5, ChatGPT, GPT3, GPT3.5 series, and
 
 We classify the answers of these models for the KBQA dataset according to dataset and model, and release them in this folder.
 
-[answers_from_models](answers_from_models) : The response(answers) of these models(Chatgpt, Gpt3/Gpt3.5, FLAN-T5, GPT-4) to the KBQA datasets mentioned in [Datasets we use](Datasets-we-use). 
+[answers_from_models](answers_from_models) : The response(answers) of these models(Chatgpt, Gpt3/Gpt3.5, FLAN-T5, GPT-4) to the KBQA datasets mentioned in [Datasets we use](datasets). 
 <table>
   <tr>
     <th>Datasets</th>
