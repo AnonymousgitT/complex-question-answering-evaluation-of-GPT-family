@@ -6,7 +6,7 @@ This is a repository for open data and code for a paper.
 
 A framework for detailed evaluation of the ability of ChatGPT and similar large language models to answer complex questions.
 
-We have released the answers of chatgpt and other models to a total of 194,782 questions across 8 datasets, including multiple languages in [Datasets we publish](#answers_from_models).
+We have released the answers of chatgpt and other models to a total of 194,782 questions across 8 datasets, including multiple languages in [Datasets we publish](answers_from_models).
 
 
 #  Overview
