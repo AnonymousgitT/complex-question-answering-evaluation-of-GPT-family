@@ -12,7 +12,7 @@ Please feel free to use the data contained in this repository for your own exper
 ## Invariance test (INV)
 
 
-This repository contains the results of our invariance test experiments on the KQApro dataset. We primarily used methods such as changing sentence expressions and modifying words (through letter repetition and omission) for this test. We sampled 100 pieces of data on the answer type and question type for the experiment.  
+This repository contains the results of our invariance test experiments on the KQApro dataset. We primarily used methods such as changing sentence expressions and modifying words (through letter repetition and omission) for this test. Each type of answer type and question type has extracted 100 data for experiments.  
 
 The "word_change.json" file located under the INV folder contains the results of our word-changing experiments. It includes the "original_question," which is the original question, "question," which is the question after changing the word, "answer," which is the ChatGPT-generated answer, and "ground_truth," which is the actual answer to the question.  
 Example：
