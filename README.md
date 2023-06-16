@@ -27,7 +27,7 @@ We compared the evaluation results of FLAN-T5, ChatGPT, GPT3, GPT3.5 series, and
 
 We classify the answers of these models for the KBQA dataset according to dataset and model, and release them in this folder.
 
-[answers_from_models](answers_from_models) : The response(answers) of these models(Chatgpt, Gpt3/Gpt3.5, FLAN-T5, GPT-4) to the KBQA datasets mentioned in [Datasets we use](#Datasets-we-use). 
+[answers_from_models](answers_from_models) : The response(answers) of these models(Chatgpt, Gpt3/Gpt3.5, FLAN-T5, GPT-4) to the KBQA datasets mentioned in [Datasets we use](Datasets-we-use). 
 <table>
   <tr>
     <th>Datasets</th>
@@ -95,13 +95,13 @@ We classify the answers of these models for the KBQA dataset according to datase
 
 
 [datasets](datasets) : 
-We have processed the 8 datasets mentioned in [Datasets we use](#datasets)  into a unified format and released them in this folder. The datasets in the unified format include the following items: question_id, question, ground_truth, SPARQL, and our added labels. Additionally, we have generated alias dictionaries from Wikipedia for the ground truth, which we can use during the evaluation.
+We have processed the 8 datasets mentioned in [Datasets we use](datasets)  into a unified format and released them in this folder. The datasets in the unified format include the following items: question_id, question, ground_truth, SPARQL, and our added labels. Additionally, we have generated alias dictionaries from Wikipedia for the ground truth, which we can use during the evaluation.
 
 # Datasets we use 
 
 To highlight the complexity of the testing questions and the breadth of the testing dataset, after careful consideration, we selected six representative English monolingual KBQA datasets and two multilingual KBQA datasets for evaluation.
 
-:collision: Please note : The links in the `Source` section below refer to the original datasets as published by their respective authors. For our experiments in this paper, we have processed these datasets accordingly, including random sampling and formatting. Please download the datasets used in our experiments from this folder: [datasets](#datasets).
+:collision: Please note : The links in the `Source` section below refer to the original datasets as published by their respective authors. For our experiments in this paper, we have processed these datasets accordingly, including random sampling and formatting. Please download the datasets used in our experiments from this folder: [datasets](datasets).
 
 
 | Monolingual datasets      | Source     | Paper     |
