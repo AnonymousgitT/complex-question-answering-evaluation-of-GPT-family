@@ -6,7 +6,7 @@ This is a repository for open data and code for a paper.
 
 A framework for detailed evaluation of the ability of ChatGPT and similar large language models to answer complex questions.
 
-We have released the answers of chatgpt and other models to a total of 194,782 questions across 8 datasets, including multiple languages in [Datasets we publish](#Datasets-we-publish).
+We have released the answers of chatgpt and other models to a total of 194,782 questions across 8 datasets, including multiple languages in [Datasets we publish](#answers_from_models).
 
 
 #  Overview
@@ -95,13 +95,13 @@ We classify the answers of these models for the KBQA dataset according to datase
 
 
 [datasets](datasets) : 
-We have processed the 8 datasets mentioned in [Datasets we use](#Datasets-we-use)  into a unified format and released them in this folder. The datasets in the unified format include the following items: question_id, question, ground_truth, SPARQL, and our added labels. Additionally, we have generated alias dictionaries from Wikipedia for the ground truth, which we can use during the evaluation.
+We have processed the 8 datasets mentioned in [Datasets we use](#datasets)  into a unified format and released them in this folder. The datasets in the unified format include the following items: question_id, question, ground_truth, SPARQL, and our added labels. Additionally, we have generated alias dictionaries from Wikipedia for the ground truth, which we can use during the evaluation.
 
 # Datasets we use 
 
 To highlight the complexity of the testing questions and the breadth of the testing dataset, after careful consideration, we selected six representative English monolingual KBQA datasets and two multilingual KBQA datasets for evaluation.
 
-:collision: Please note : The links in the `Source` section below refer to the original datasets as published by their respective authors. For our experiments in this paper, we have processed these datasets accordingly, including random sampling and formatting. Please download the datasets used in our experiments from this folder: [datasets](datasets).
+:collision: Please note : The links in the `Source` section below refer to the original datasets as published by their respective authors. For our experiments in this paper, we have processed these datasets accordingly, including random sampling and formatting. Please download the datasets used in our experiments from this folder: [datasets](#datasets).
 
 
 | Monolingual datasets      | Source     | Paper     |
@@ -126,6 +126,8 @@ We have uploaded our [code](ChatGPT_API.py) for using ChatGPT to collect answers
 
 
 # CheckList Model
+
+The data for Invariance test (INV) and Directional Expectation test (DIR) are published at: [INV_and_DIR](#INV_and_DIR)
 
 ![INV_DIR](https://user-images.githubusercontent.com/97523884/236835552-62c8b615-a3c2-4b72-83ab-cf8e23d4b9f7.png)
 
