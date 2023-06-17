@@ -14,6 +14,7 @@ torch==1.9.0
 transformers==4.30.2
 scipy==1.7.3
 hanlp==2.1.0
+num2words==0.5.12
 ```
 
 ## Preparation of datasets
