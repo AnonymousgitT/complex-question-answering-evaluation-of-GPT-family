@@ -33,4 +33,8 @@ Dataset_aliases_dir = 'CWQ/aliase_data31158.json'
 
 ## Code for Evaluating Model QA Performance
 
-The code uses mBERT for similarity matching calculations, which requires a high-performance computer and is very time-consuming. By commenting out the similarity matching calculation code and only performing Exact Match, you can still achieve very close results to the original article data.
+The code uses mBERT for similarity matching calculations, which requires a high-performance computer and is very **time-consuming**. By **commenting out** the similarity matching calculation code and only performing Exact Match, you can still achieve very close results to the original article data.
+
+For monolingual dataset, we recommend referring to the code in `eval_CWQ.py`, which has detailed comments. 
+
+For multilingual datasets, please refer to the code in `eval_MKQA.py`. Since the structure of the **QALD-9 dataset** is similar to **MKQA**, you can simply modify the `eval_MKQA.py` code to use it for the **QALD-9** dataset.
