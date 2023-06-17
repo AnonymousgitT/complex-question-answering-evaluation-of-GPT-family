@@ -38,3 +38,11 @@ The code uses mBERT for similarity matching calculations, which requires a high-
 For monolingual dataset, we recommend referring to the code in `eval_CWQ.py`, which has detailed comments. 
 
 For multilingual datasets, please refer to the code in `eval_MKQA.py`. Since the structure of the **QALD-9 dataset** is similar to **MKQA**, you can simply modify the `eval_MKQA.py` code to use it for the **QALD-9** dataset.
+
+## Usage of the code: 
+
+Run the following command in a Python environment with the required packages installed:
+
+``` python
+python eval_{dataset_name}.py
+```
