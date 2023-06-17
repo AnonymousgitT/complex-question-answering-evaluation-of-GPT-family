@@ -124,6 +124,10 @@ Multilingual dataset
 # Code for ChatGPT API
 We have uploaded our [code](ChatGPT_API.py) for using ChatGPT to collect answers to questions in datasets. The code uses the official OpenAI's API. If you want to learn more about APl, see OpenAI's official website for more information: https://platform.openai.com/docs/guides/chat.
 
+# Code for evaluating model performance
+
+We have released the code for evaluating the EM score（model performance） of the model's answers in our paper, located in the [evaluation_code](evaluation_code).
+We believe it is a good reference for evaluating the correctness of generative language models in question-answering tasks.
 
 # CheckList Model
 
