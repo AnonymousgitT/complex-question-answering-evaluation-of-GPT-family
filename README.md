@@ -6,7 +6,7 @@ This is a repository for open data and code for a paper.
 
 A framework for detailed evaluation of the ability of ChatGPT and similar large language models to answer complex questions.
 
-We have released the answers of chatgpt and other models to a total of 194,782 questions across 8 datasets, including multiple languages in [Datasets we publish](answers_from_models).
+We have released the answers of chatgpt and other models to a total of 194,782 questions across 8 datasets, including multiple languages in [Datasets we publish](answers_from_LLMs).
 
 
 #  Overview
@@ -35,7 +35,7 @@ The following table shows the performance of evaluated models on different datas
 
 We classify the answers of these models for the KBQA dataset according to dataset and model, and release them in this folder.
 
-[answers_from_models](answers_from_models) : The response(answers) of these models(Chatgpt, Gpt3/Gpt3.5, FLAN-T5, GPT-4) to the KBQA datasets mentioned in [Datasets we use](datasets). 
+[answers_from_LLMs](answers_from_LLMs) : The response(answers) of these models(Chatgpt, Gpt3/Gpt3.5, FLAN-T5, GPT-4) to the KBQA datasets mentioned in [Datasets we use](datasets). 
 <table>
   <tr>
     <th>Datasets</th>
