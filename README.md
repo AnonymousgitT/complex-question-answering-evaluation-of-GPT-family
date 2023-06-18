@@ -22,6 +22,14 @@ Our evaluation used eight real and complex QA datasets, including six English da
 
 We compared the evaluation results of FLAN-T5, ChatGPT, GPT3, GPT3.5 series, and GPT-4 to determine the iterative benefits of different models within the GPT family and some commonalities between GPT family models and other LLMs.
 
+## Overall results
+
+The following table shows the performance of evaluated models on different datasets, and we also compared them with the current SOTA traditional KBQA models (fine-tuned (FT) and zero-shot (ZS)).
+
+(When evaluating answers, we only consider two situations: answering correctly or answering incorrectly. Therefore, our Acc score is the same as our F1 score.)
+
+<img width="970" alt="image" src="https://github.com/AnonymousgitT/complex-question-answering-evaluation-of-GPT-family/assets/97523884/fe28b569-963e-4532-bbec-58985eded3c1">
+
 # Datasets we publish
 <img width="1450" alt="label_statistic" src="https://user-images.githubusercontent.com/97523884/236836031-932a9180-3c12-4f65-8b47-854fd356d2d3.png">
 
