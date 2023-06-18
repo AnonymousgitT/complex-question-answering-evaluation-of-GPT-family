@@ -21,14 +21,14 @@ num2words==0.5.12
 
 Before using the code, we need to have the following 3 files and set their directories correctly in the code. They are the ground truth of the dataset, the textual answers of the model to the questions, and the alias table of entities in this dataset.
 
-The textual answers of the model to the questions can be found in the [answers_from_models](answers_from_models). The ground truth of the dataset and the alias table of entities can be found in the [datasets](datasets). 
+The textual answers of the model to the questions can be found in the [answers_from_LLMs](answers_from_LLMs). The ground truth of the dataset and the alias table of entities can be found in the [datasets](datasets). 
 
 Here is an example of my settings for evaluating Chatgpt's answers to the CWQ dataset:
 
 ``` python
-Ground_truth_dataset_dir = 'CWQ/CWQ_all_question_with_label.json'
-Models_output_dir = 'CWQ/chatgpt_answers.txt'
-Dataset_aliases_dir = 'CWQ/aliase_data31158.json'
+Ground_truth_dataset_dir = 'datasets/CWQ/CWQ_all_question_with_label.json'
+Models_output_dir = 'answers_from_LLMs/chatgpt/CWQ_chatgpt_answers.txt'
+Dataset_aliases_dir = 'datasets/CWQ/aliase_data31158.json'
 ```
 
 ## Code for Evaluating Model QA Performance
